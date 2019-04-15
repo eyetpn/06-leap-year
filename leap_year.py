@@ -4,7 +4,7 @@
 
 # Don't forget to reach out for help after your own due diligence
 
-def is_leap(year):
+def is_leap_year(year):
     if year % 100 == 0:
         if year %400 == 0:
             return True
